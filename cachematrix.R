@@ -16,7 +16,8 @@ makeCacheMatrix <- function(x = matrix()) {
 	# set up the matrix 
 	setMat <- function(newVal) {
 		x <<- newVal
-		cache <<- NULL  #as matrix is assigned a new value, cache should be null 
+		#as matrix is assigned a new value, cache should be null 
+		cache <<- NULL  
 	}
 	
 	#return the matrix 
